@@ -77,6 +77,18 @@
 			<artifactId>xml-apis</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+		<!-- test -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.specs2</groupId>
+			<artifactId>specs2_2.9.1</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
